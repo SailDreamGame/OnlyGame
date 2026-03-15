@@ -1,0 +1,48 @@
+# Unreal Engine Gitignore
+# Based on standard UE gitignore patterns
+
+# Build and intermediate files
+Binaries/
+Intermediate/
+DerivedDataCache/
+.vscode/
+.vs/
+
+# Generated files
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache and temporary files
+Saved/Logs/
+Saved/Config/
+Saved/Sessions/
+*.log
+*.pma
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Mac files
+.DS_Store
+
+# UE specific
+Saved/Profiler/
+*.profraw
+*.profdata
+*.uproject.user
+
+# Shader working directory (optional, depends on your workflow)
+# Saved/ShaderWorkingDirectory/
+
+# Temp directories
+tmp/
+temp/
