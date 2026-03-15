@@ -1,5 +1,6 @@
 # Unreal Engine Gitignore
 # Based on standard UE gitignore patterns
+# Modified: Source, Saved, and OnlyGame.sln are now tracked
 
 # Build and intermediate files
 Binaries/
@@ -9,16 +10,14 @@ DerivedDataCache/
 .vs/
 
 # Generated files
-*.sln
+# OnlyGame.sln is now tracked (removed from ignore)
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
 # Cache and temporary files
-Saved/Logs/
-Saved/Config/
-Saved/Sessions/
+# Saved directory is now tracked (removed from ignore)
 *.log
 *.pma
 
@@ -35,7 +34,6 @@ Saved/Sessions/
 .DS_Store
 
 # UE specific
-Saved/Profiler/
 *.profraw
 *.profdata
 *.uproject.user
