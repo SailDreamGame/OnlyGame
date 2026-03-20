@@ -43,3 +43,5 @@ DerivedDataCache/
 # Temporary Files
 *.tmp
 *.temp
+
+# NOTE: Content directory is NOT ignored and should be tracked
