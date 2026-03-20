@@ -1,47 +1,45 @@
-# Unreal Engine Gitignore
-# Based on standard UE gitignore patterns
-# Modified: Source and OnlyGame.sln are now tracked, Saved is ignored
-
-# Build and intermediate files
-Binaries/
-Intermediate/
+# Unreal Engine 5 Ignore File
+# Derived Data Cache
 DerivedDataCache/
-.vscode/
-.vs/
 
-# Generated files
-# OnlyGame.sln is now tracked (removed from ignore)
+# Binaries
+Binaries/
+
+# Visual Studio
+.vs/
+.vsconfig
+
+# JetBrains IDEs
+.idea/
+
+# Project Files
+OnlyGame.sln
+OnlyGame.uproject
+
+# Saved Data
+Saved/
+
+# Intermediate Build Files
+Intermediate/
+
+# Build Artifacts
+Build/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Cache and temporary files
-# Saved directory should be ignored (Unreal Engine generated files)
-Saved/
-*.log
-*.pma
+# Package Files
+Build/
 
-# IDE files
-.vs/
-.vscode/
-.idea/
-*.opensdf
-*.opendb
-*.VC.db
-*.VC.opendb
+# Cache Files
+*.cache
+DerivedDataCache/
 
-# Mac files
-.DS_Store
+# Backup Files
+*.backup
+*.bak
 
-# UE specific
-*.profraw
-*.profdata
-*.uproject.user
-
-# Shader working directory (optional, depends on your workflow)
-# Saved/ShaderWorkingDirectory/
-
-# Temp directories
-tmp/
-temp/
+# Temporary Files
+*.tmp
+*.temp
